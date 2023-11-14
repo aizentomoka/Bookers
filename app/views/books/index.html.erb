@@ -11,6 +11,13 @@
   
   <tbody>
     <% @books.each do |book| %>
+    
+    <tr>
+      <th><%= book.title %></th>
+      <th><%= book.body %></th>
+    </tr>
+    
+    
     <% end %>
    
    
