@@ -2,6 +2,8 @@
 
 
   <%= @book.title %>
+  
+</p>
 
 <p><strong>Body:</strong>
 
@@ -10,5 +12,5 @@
 
 </p>
 
-<a class="edit" href="">Edit</a>
-<a class="back" href="/books">Back</a>
+<a class="Edit" href="/books/<%= @book.id %>/edit">Edit</a>
+<a class="Back" href="/books">Back</a>

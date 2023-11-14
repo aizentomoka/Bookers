@@ -15,6 +15,10 @@
     <tr>
       <th><%= book.title %></th>
       <th><%= book.body %></th>
+      <th><%= link_to "Show", "/books/#{book.id}" %></th>
+      <th><%= link_to "Edit", "/books/#{book.id}/edit" %></th>
+      
+      
     </tr>
     
     
